@@ -1,0 +1,1207 @@
+﻿Title,Body,Assignees,Status,Priority,Type,Week,Milestone,Labels,Epic ID,Parent Epic,Story ID,Depends On,Estimate,Acceptance Criteria,Iteration
+Epic: Local AI Foundation,"## Goal
+Get the local agent runtime working on Windows with OpenClaw, Ollama, models, workspaces, and verified agent flows.
+
+## Scope
+- - Install Ollama and verify local runtime
+- Pull local coding and embedding models
+- Install OpenClaw and complete onboarding
+- Create and validate agent workspaces
+- Define agents in openclaw.json
+- Smoke test all local agents
+
+## Exit criteria
+All P0 stories for Week 1 are completed and the weekly milestone outcome is demonstrably working.
+",,Todo,P0,Epic,1,Week 1 — Local AI Foundation,"week-1,epic,mvp,foundation",E-01,,,,8,Weekly milestone 'Week 1 — Local AI Foundation' achieved.,Week 1
+Install Ollama and verify local runtime,"## Story
+Set up Ollama on Windows and confirm it is available on the command line.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Local AI Foundation**.
+",,Todo,P0,Story,1,Week 1 — Local AI Foundation,"week-1,story,devops,ollama",,E-01,S-01-01,,3,"- Deliverable for Week 1 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 1
+Pull local coding and embedding models,"## Story
+Pull qwen2.5-coder:7b, codellama:7b-instruct, codellama:7b-code, and nomic-embed-text.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Local AI Foundation**.
+",,Todo,P0,Story,1,Week 1 — Local AI Foundation,"week-1,story,ollama,models",,E-01,S-01-02,S-01-01,3,"- Deliverable for Week 1 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 1
+Install OpenClaw and complete onboarding,"## Story
+Install OpenClaw, run onboarding, and verify the gateway and dashboard.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Local AI Foundation**.
+",,Todo,P0,Story,1,Week 1 — Local AI Foundation,"week-1,story,openclaw,setup",,E-01,S-01-03,S-01-02,3,"- Deliverable for Week 1 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 1
+Create and validate agent workspaces,"## Story
+Create workspace-main, workspace-reviewer, workspace-tests, workspace-docs, and workspace-support with required files.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Local AI Foundation**.
+",,Todo,P0,Story,1,Week 1 — Local AI Foundation,"week-1,story,agents,workspace",,E-01,S-01-04,S-01-03,3,"- Deliverable for Week 1 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 1
+Define agents in openclaw.json,"## Story
+Add model routing, workspaces, memorySearch, and baseline bindings to the OpenClaw config.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Local AI Foundation**.
+",,Todo,P0,Story,1,Week 1 — Local AI Foundation,"week-1,story,openclaw,config",,E-01,S-01-05,S-01-04,3,"- Deliverable for Week 1 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 1
+Smoke test all local agents,"## Story
+Run one simple task through each agent and confirm expected behavior and model selection.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Local AI Foundation**.
+",,Todo,P0,Story,1,Week 1 — Local AI Foundation,"week-1,story,testing,agents",,E-01,S-01-06,S-01-05,3,"- Deliverable for Week 1 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 1
+Epic: SaaS Backend and Frontend Skeleton,"## Goal
+Create the core product shell with a Spring Boot backend, Angular frontend, auth foundation, and tenant-aware data model.
+
+## Scope
+- - Bootstrap Spring Boot backend
+- Configure Postgres and migrations
+- Implement authentication foundation
+- Create tenant and project domain models
+- Bootstrap Angular app shell
+- Add auth state and org/project switching UI
+
+## Exit criteria
+All P0 stories for Week 2 are completed and the weekly milestone outcome is demonstrably working.
+",,Todo,P0,Epic,2,Week 2 — SaaS Backend and Frontend Skeleton,"week-2,epic,mvp,foundation",E-02,,,E-01,8,Weekly milestone 'Week 2 — SaaS Backend and Frontend Skeleton' achieved.,Week 2
+Bootstrap Spring Boot backend,"## Story
+Create the backend project with core packages for auth, users, organizations, projects, audit, memory, and integrations.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: SaaS Backend and Frontend Skeleton**.
+",,Todo,P0,Story,2,Week 2 — SaaS Backend and Frontend Skeleton,"week-2,story,backend,spring-boot",,E-02,S-02-01,E-01,3,"- Deliverable for Week 2 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 2
+Configure Postgres and migrations,"## Story
+Set up Postgres connectivity and Flyway or Liquibase migrations.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: SaaS Backend and Frontend Skeleton**.
+",,Todo,P0,Story,2,Week 2 — SaaS Backend and Frontend Skeleton,"week-2,story,backend,database",,E-02,S-02-02,S-02-01,3,"- Deliverable for Week 2 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 2
+Implement authentication foundation,"## Story
+Add security configuration, auth flow, and JWT or session-based authentication.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: SaaS Backend and Frontend Skeleton**.
+",,Todo,P0,Story,2,Week 2 — SaaS Backend and Frontend Skeleton,"week-2,story,backend,auth",,E-02,S-02-03,S-02-02,3,"- Deliverable for Week 2 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 2
+Create tenant and project domain models,"## Story
+Add entities and repositories for users, organizations, memberships, and projects.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: SaaS Backend and Frontend Skeleton**.
+",,Todo,P0,Story,2,Week 2 — SaaS Backend and Frontend Skeleton,"week-2,story,backend,multi-tenant",,E-02,S-02-04,S-02-03,3,"- Deliverable for Week 2 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 2
+Bootstrap Angular app shell,"## Story
+Create the Angular app with layout, sidebar, routing, login page, and dashboard placeholder.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: SaaS Backend and Frontend Skeleton**.
+",,Todo,P0,Story,2,Week 2 — SaaS Backend and Frontend Skeleton,"week-2,story,frontend,angular",,E-02,S-02-05,S-02-04,3,"- Deliverable for Week 2 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 2
+Add auth state and org/project switching UI,"## Story
+Create frontend state and placeholder screens for organization switching and project listing.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: SaaS Backend and Frontend Skeleton**.
+",,Todo,P1,Story,2,Week 2 — SaaS Backend and Frontend Skeleton,"week-2,story,frontend,auth,ux",,E-02,S-02-06,S-02-05,2,"- Deliverable for Week 2 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 2
+Epic: Shared Memory Foundation,"## Goal
+Build the Postgres + pgvector memory layer, ingestion API, and first memory search UI.
+
+## Scope
+- - Enable pgvector and create memory schema
+- Add full-text and vector search support
+- Implement EmbeddingService
+- Implement MemoryIngestionService
+- Implement MemoryRetrievalService
+- Build Memory Explorer screen
+
+## Exit criteria
+All P0 stories for Week 3 are completed and the weekly milestone outcome is demonstrably working.
+",,Todo,P0,Epic,3,Week 3 — Shared Memory Foundation,"week-3,epic,mvp,foundation",E-03,,,E-02,8,Weekly milestone 'Week 3 — Shared Memory Foundation' achieved.,Week 3
+Enable pgvector and create memory schema,"## Story
+Create memory_documents, memory_chunks, memory_summaries, and memory_events tables with tenant-aware indexes.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Shared Memory Foundation**.
+",,Todo,P0,Story,3,Week 3 — Shared Memory Foundation,"week-3,story,backend,database,memory",,E-03,S-03-01,E-02,3,"- Deliverable for Week 3 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 3
+Add full-text and vector search support,"## Story
+Create full-text search columns and wire up vector search support in the database layer.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Shared Memory Foundation**.
+",,Todo,P0,Story,3,Week 3 — Shared Memory Foundation,"week-3,story,backend,search,memory",,E-03,S-03-02,S-03-01,3,"- Deliverable for Week 3 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 3
+Implement EmbeddingService,"## Story
+Create the service responsible for generating embeddings for memory chunks.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Shared Memory Foundation**.
+",,Todo,P0,Story,3,Week 3 — Shared Memory Foundation,"week-3,story,backend,memory,embeddings",,E-03,S-03-03,S-03-02,3,"- Deliverable for Week 3 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 3
+Implement MemoryIngestionService,"## Story
+Add ingest DTOs, chunking support, and APIs for manual ingestion.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Shared Memory Foundation**.
+",,Todo,P0,Story,3,Week 3 — Shared Memory Foundation,"week-3,story,backend,memory,api",,E-03,S-03-04,S-03-03,3,"- Deliverable for Week 3 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 3
+Implement MemoryRetrievalService,"## Story
+Add search APIs with tenant, project, repo, and source filters.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Shared Memory Foundation**.
+",,Todo,P0,Story,3,Week 3 — Shared Memory Foundation,"week-3,story,backend,memory,search",,E-03,S-03-05,S-03-04,3,"- Deliverable for Week 3 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 3
+Build Memory Explorer screen,"## Story
+Create the first UI for memory search, filtering, and result inspection.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Shared Memory Foundation**.
+",,Todo,P1,Story,3,Week 3 — Shared Memory Foundation,"week-3,story,frontend,memory,ux",,E-03,S-03-06,S-03-05,2,"- Deliverable for Week 3 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 3
+Epic: OpenClaw Memory Sync and Project Docs,"## Goal
+Connect shared SaaS memory with agent-local OpenClaw memory files and establish architecture and runbook docs.
+
+## Scope
+- - Create architecture and runbook docs
+- Implement WorkspaceMemorySyncService
+- Add daily memory file conventions
+- Add durable memory promotion rules
+- Index and test OpenClaw memory search
+- Prevent duplicate memory sync entries
+
+## Exit criteria
+All P0 stories for Week 4 are completed and the weekly milestone outcome is demonstrably working.
+",,Todo,P0,Epic,4,Week 4 — OpenClaw Memory Sync and Project Docs,"week-4,epic,mvp,foundation",E-04,,,E-03,8,Weekly milestone 'Week 4 — OpenClaw Memory Sync and Project Docs' achieved.,Week 4
+Create architecture and runbook docs,"## Story
+Initialize docs/architecture.md and docs/runbooks.md in the main workspace.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: OpenClaw Memory Sync and Project Docs**.
+",,Todo,P0,Story,4,Week 4 — OpenClaw Memory Sync and Project Docs,"week-4,story,docs,architecture",,E-04,S-04-01,E-03,3,"- Deliverable for Week 4 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 4
+Implement WorkspaceMemorySyncService,"## Story
+Write services that append daily summaries and durable decisions into OpenClaw memory files.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: OpenClaw Memory Sync and Project Docs**.
+",,Todo,P0,Story,4,Week 4 — OpenClaw Memory Sync and Project Docs,"week-4,story,backend,memory,openclaw",,E-04,S-04-02,S-04-01,3,"- Deliverable for Week 4 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 4
+Add daily memory file conventions,"## Story
+Create the logic and templates for memory/YYYY-MM-DD.md files.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: OpenClaw Memory Sync and Project Docs**.
+",,Todo,P1,Story,4,Week 4 — OpenClaw Memory Sync and Project Docs,"week-4,story,memory,openclaw",,E-04,S-04-03,S-04-02,2,"- Deliverable for Week 4 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 4
+Add durable memory promotion rules,"## Story
+Separate temporary notes from durable MEMORY.md updates.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: OpenClaw Memory Sync and Project Docs**.
+",,Todo,P0,Story,4,Week 4 — OpenClaw Memory Sync and Project Docs,"week-4,story,memory,governance",,E-04,S-04-04,S-04-03,3,"- Deliverable for Week 4 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 4
+Index and test OpenClaw memory search,"## Story
+Run memory indexing and verify that agents pull the right context from memory files.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: OpenClaw Memory Sync and Project Docs**.
+",,Todo,P0,Story,4,Week 4 — OpenClaw Memory Sync and Project Docs,"week-4,story,openclaw,testing,memory",,E-04,S-04-05,S-04-04,3,"- Deliverable for Week 4 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 4
+Prevent duplicate memory sync entries,"## Story
+Add idempotency and duplicate suppression when syncing summaries into workspace memory.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: OpenClaw Memory Sync and Project Docs**.
+",,Todo,P1,Story,4,Week 4 — OpenClaw Memory Sync and Project Docs,"week-4,story,backend,memory,quality",,E-04,S-04-06,S-04-05,2,"- Deliverable for Week 4 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 4
+Epic: GitHub Ingestion and Dev Workflow,"## Goal
+Turn repository activity into searchable project intelligence and connect code changes to memory.
+
+## Scope
+- - Create GitHub webhook receiver
+- Handle push and pull request events
+- Summarize PRs and code changes
+- Persist code activity to shared memory
+- Link repositories to projects
+- Build code activity feed UI
+
+## Exit criteria
+All P0 stories for Week 5 are completed and the weekly milestone outcome is demonstrably working.
+",,Todo,P0,Epic,5,Week 5 — GitHub Ingestion and Dev Workflow,"week-5,epic,mvp",E-05,,,E-04,8,Weekly milestone 'Week 5 — GitHub Ingestion and Dev Workflow' achieved.,Week 5
+Create GitHub webhook receiver,"## Story
+Build secure webhook endpoints and verify signatures for GitHub events.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: GitHub Ingestion and Dev Workflow**.
+",,Todo,P0,Story,5,Week 5 — GitHub Ingestion and Dev Workflow,"week-5,story,backend,github,webhooks",,E-05,S-05-01,E-04,3,"- Deliverable for Week 5 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 5
+Handle push and pull request events,"## Story
+Store webhook payloads and normalize push, PR, and merged PR events.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: GitHub Ingestion and Dev Workflow**.
+",,Todo,P0,Story,5,Week 5 — GitHub Ingestion and Dev Workflow,"week-5,story,backend,github,integrations",,E-05,S-05-02,S-05-01,3,"- Deliverable for Week 5 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 5
+Summarize PRs and code changes,"## Story
+Generate summaries of PR intent, changed files, risks, and architectural impact.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: GitHub Ingestion and Dev Workflow**.
+",,Todo,P0,Story,5,Week 5 — GitHub Ingestion and Dev Workflow,"week-5,story,backend,github,memory",,E-05,S-05-03,S-05-02,3,"- Deliverable for Week 5 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 5
+Persist code activity to shared memory,"## Story
+Save GitHub-derived summaries into memory tables and daily memory files.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: GitHub Ingestion and Dev Workflow**.
+",,Todo,P0,Story,5,Week 5 — GitHub Ingestion and Dev Workflow,"week-5,story,backend,memory,github",,E-05,S-05-04,S-05-03,3,"- Deliverable for Week 5 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 5
+Link repositories to projects,"## Story
+Create repository records and map them to projects and memory scope.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: GitHub Ingestion and Dev Workflow**.
+",,Todo,P1,Story,5,Week 5 — GitHub Ingestion and Dev Workflow,"week-5,story,backend,repos,projects",,E-05,S-05-05,S-05-04,2,"- Deliverable for Week 5 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 5
+Build code activity feed UI,"## Story
+Show recent code activity and linked summaries inside the project UI.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: GitHub Ingestion and Dev Workflow**.
+",,Todo,P1,Story,5,Week 5 — GitHub Ingestion and Dev Workflow,"week-5,story,frontend,github,ux",,E-05,S-05-06,S-05-05,2,"- Deliverable for Week 5 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 5
+Epic: Team Collaboration Basics,"## Goal
+Make the MVP multi-user with roles, shared project rooms, and activity visibility.
+
+## Scope
+- - Implement team invitation flow
+- Add role model and permissions baseline
+- Add project membership controls
+- Create team members management UI
+- Create shared project room UI
+- Add activity feed and audit placeholders
+
+## Exit criteria
+All P0 stories for Week 6 are completed and the weekly milestone outcome is demonstrably working.
+",,Todo,P0,Epic,6,Week 6 — Team Collaboration Basics,"week-6,epic,mvp",E-06,,,E-05,8,Weekly milestone 'Week 6 — Team Collaboration Basics' achieved.,Week 6
+Implement team invitation flow,"## Story
+Allow organization admins to invite users into the SaaS.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Team Collaboration Basics**.
+",,Todo,P0,Story,6,Week 6 — Team Collaboration Basics,"week-6,story,backend,team,auth",,E-06,S-06-01,E-05,3,"- Deliverable for Week 6 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 6
+Add role model and permissions baseline,"## Story
+Create roles such as owner, admin, developer, QA, PM, and support with authorization rules.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Team Collaboration Basics**.
+",,Todo,P0,Story,6,Week 6 — Team Collaboration Basics,"week-6,story,backend,rbac,security",,E-06,S-06-02,S-06-01,3,"- Deliverable for Week 6 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 6
+Add project membership controls,"## Story
+Restrict project visibility and actions by organization and project membership.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Team Collaboration Basics**.
+",,Todo,P0,Story,6,Week 6 — Team Collaboration Basics,"week-6,story,backend,rbac,projects",,E-06,S-06-03,S-06-02,3,"- Deliverable for Week 6 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 6
+Create team members management UI,"## Story
+Build screens for listing members, inviting users, and editing roles.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Team Collaboration Basics**.
+",,Todo,P1,Story,6,Week 6 — Team Collaboration Basics,"week-6,story,frontend,team,ux",,E-06,S-06-04,S-06-03,2,"- Deliverable for Week 6 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 6
+Create shared project room UI,"## Story
+Add a shared collaboration space for each project.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Team Collaboration Basics**.
+",,Todo,P1,Story,6,Week 6 — Team Collaboration Basics,"week-6,story,frontend,collaboration,ux",,E-06,S-06-05,S-06-04,2,"- Deliverable for Week 6 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 6
+Add activity feed and audit placeholders,"## Story
+Show who did what at a basic level before full audit features land.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Team Collaboration Basics**.
+",,Todo,P1,Story,6,Week 6 — Team Collaboration Basics,"week-6,story,frontend,audit,activity",,E-06,S-06-06,S-06-05,2,"- Deliverable for Week 6 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 6
+Epic: Internal WhatsApp Integration,"## Goal
+Connect internal WhatsApp to the support agent and feed support conversations into memory.
+
+## Scope
+- - Configure OpenClaw WhatsApp channel
+- Apply WhatsApp allowlist and routing policy
+- Create support conversation persistence
+- Implement support summarization flow
+- Build internal WhatsApp inbox UI
+- Test end-to-end internal support flow
+
+## Exit criteria
+All P0 stories for Week 7 are completed and the weekly milestone outcome is demonstrably working.
+",,Todo,P0,Epic,7,Week 7 — Internal WhatsApp Integration,"week-7,epic,mvp",E-07,,,E-06,8,Weekly milestone 'Week 7 — Internal WhatsApp Integration' achieved.,Week 7
+Configure OpenClaw WhatsApp channel,"## Story
+Install or configure the WhatsApp channel and connect a dedicated internal number.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Internal WhatsApp Integration**.
+",,Todo,P0,Story,7,Week 7 — Internal WhatsApp Integration,"week-7,story,openclaw,whatsapp,setup",,E-07,S-07-01,E-06,3,"- Deliverable for Week 7 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 7
+Apply WhatsApp allowlist and routing policy,"## Story
+Set DM policy, allowlists, and bind the support channel to the support agent.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Internal WhatsApp Integration**.
+",,Todo,P0,Story,7,Week 7 — Internal WhatsApp Integration,"week-7,story,openclaw,whatsapp,security",,E-07,S-07-02,S-07-01,3,"- Deliverable for Week 7 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 7
+Create support conversation persistence,"## Story
+Store inbound support messages and conversation metadata in the backend.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Internal WhatsApp Integration**.
+",,Todo,P0,Story,7,Week 7 — Internal WhatsApp Integration,"week-7,story,backend,whatsapp,support",,E-07,S-07-03,S-07-02,3,"- Deliverable for Week 7 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 7
+Implement support summarization flow,"## Story
+Summarize conversations and classify issues for memory and escalation.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Internal WhatsApp Integration**.
+",,Todo,P0,Story,7,Week 7 — Internal WhatsApp Integration,"week-7,story,backend,support,memory",,E-07,S-07-04,S-07-03,3,"- Deliverable for Week 7 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 7
+Build internal WhatsApp inbox UI,"## Story
+Create the first support inbox screen in the frontend.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Internal WhatsApp Integration**.
+",,Todo,P1,Story,7,Week 7 — Internal WhatsApp Integration,"week-7,story,frontend,whatsapp,ux",,E-07,S-07-05,S-07-04,2,"- Deliverable for Week 7 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 7
+Test end-to-end internal support flow,"## Story
+Verify inbound WhatsApp message to draft reply to memory update.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Internal WhatsApp Integration**.
+",,Todo,P0,Story,7,Week 7 — Internal WhatsApp Integration,"week-7,story,testing,whatsapp,support",,E-07,S-07-06,S-07-05,3,"- Deliverable for Week 7 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 7
+Epic: Approvals and Safe Operations,"## Goal
+Introduce human approval gates for sensitive actions so the system cannot make risky client commitments or mutate durable memory unchecked.
+
+## Scope
+- - Create approvals domain model
+- Implement ApprovalService
+- Expose approval API endpoints
+- Gate sensitive WhatsApp outbound messages
+- Gate durable memory promotions
+- Add approval queue and detail UI
+- Add approval RBAC and audit trail
+- Test approval and safety flows
+
+## Exit criteria
+All P0 stories for Week 8 are completed and the weekly milestone outcome is demonstrably working.
+",,Todo,P0,Epic,8,Week 8 — Approvals and Safe Operations,"week-8,epic,mvp",E-08,,,E-07,8,Weekly milestone 'Week 8 — Approvals and Safe Operations' achieved.,Week 8
+Create approvals domain model,"## Story
+Add the approvals table, enums, indexes, entity, and repository for approval records.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Approvals and Safe Operations**.
+",,Todo,P0,Story,8,Week 8 — Approvals and Safe Operations,"week-8,story,backend,approvals,database",,E-08,S-08-01,E-07,3,"- Deliverable for Week 8 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 8
+Implement ApprovalService,"## Story
+Support create, approve, reject, validate transitions, and audit hooks.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Approvals and Safe Operations**.
+",,Todo,P0,Story,8,Week 8 — Approvals and Safe Operations,"week-8,story,backend,approvals,service",,E-08,S-08-02,S-08-01,3,"- Deliverable for Week 8 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 8
+Expose approval API endpoints,"## Story
+Add list, detail, approve, and reject API endpoints with auth checks.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Approvals and Safe Operations**.
+",,Todo,P0,Story,8,Week 8 — Approvals and Safe Operations,"week-8,story,backend,approvals,api",,E-08,S-08-03,S-08-02,3,"- Deliverable for Week 8 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 8
+Gate sensitive WhatsApp outbound messages,"## Story
+Require approval before sending risky client-facing commitments.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Approvals and Safe Operations**.
+",,Todo,P0,Story,8,Week 8 — Approvals and Safe Operations,"week-8,story,backend,whatsapp,approvals,safety",,E-08,S-08-04,S-08-03,3,"- Deliverable for Week 8 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 8
+Gate durable memory promotions,"## Story
+Require approval before promoting changes into durable MEMORY.md.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Approvals and Safe Operations**.
+",,Todo,P0,Story,8,Week 8 — Approvals and Safe Operations,"week-8,story,backend,memory,approvals",,E-08,S-08-05,S-08-04,3,"- Deliverable for Week 8 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 8
+Add approval queue and detail UI,"## Story
+Build the frontend approval queue and review screens.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Approvals and Safe Operations**.
+",,Todo,P0,Story,8,Week 8 — Approvals and Safe Operations,"week-8,story,frontend,approvals,ux",,E-08,S-08-06,S-08-05,3,"- Deliverable for Week 8 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 8
+Add approval RBAC and audit trail,"## Story
+Restrict approval actions to the right roles and capture all lifecycle events.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Approvals and Safe Operations**.
+",,Todo,P0,Story,8,Week 8 — Approvals and Safe Operations,"week-8,story,backend,rbac,audit,approvals",,E-08,S-08-07,S-08-06,3,"- Deliverable for Week 8 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 8
+Test approval and safety flows,"## Story
+Add automated tests for blocked unsafe actions and approval transitions.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Approvals and Safe Operations**.
+",,Todo,P0,Story,8,Week 8 — Approvals and Safe Operations,"week-8,story,testing,approvals,security",,E-08,S-08-08,S-08-07,3,"- Deliverable for Week 8 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 8
+Epic: Official WhatsApp Business Path,"## Goal
+Start the production-grade WhatsApp backend path suitable for the sellable SaaS.
+
+## Scope
+- - Choose official WhatsApp provider
+- Create WhatsApp account and contact models
+- Build official WhatsApp webhook receiver
+- Implement outbound message service
+- Map official WhatsApp traffic to tenant and project context
+- Build customer conversation UI
+
+## Exit criteria
+All P0 stories for Week 9 are completed and the weekly milestone outcome is demonstrably working.
+",,Todo,P0,Epic,9,Week 9 — Official WhatsApp Business Path,"week-9,epic,mvp",E-09,,,E-08,8,Weekly milestone 'Week 9 — Official WhatsApp Business Path' achieved.,Week 9
+Choose official WhatsApp provider,"## Story
+Decide between Meta WhatsApp Business Platform and Twilio WhatsApp for the MVP path.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Official WhatsApp Business Path**.
+",,Todo,P0,Story,9,Week 9 — Official WhatsApp Business Path,"week-9,story,planning,whatsapp,saas",,E-09,S-09-01,E-08,3,"- Deliverable for Week 9 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 9
+Create WhatsApp account and contact models,"## Story
+Add entities for WhatsApp accounts, contacts, conversations, and messages.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Official WhatsApp Business Path**.
+",,Todo,P0,Story,9,Week 9 — Official WhatsApp Business Path,"week-9,story,backend,whatsapp,database",,E-09,S-09-02,S-09-01,3,"- Deliverable for Week 9 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 9
+Build official WhatsApp webhook receiver,"## Story
+Receive, verify, and store inbound messages from the official provider.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Official WhatsApp Business Path**.
+",,Todo,P0,Story,9,Week 9 — Official WhatsApp Business Path,"week-9,story,backend,whatsapp,webhooks",,E-09,S-09-03,S-09-02,3,"- Deliverable for Week 9 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 9
+Implement outbound message service,"## Story
+Send outbound messages, record delivery state, and link them to conversations.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Official WhatsApp Business Path**.
+",,Todo,P0,Story,9,Week 9 — Official WhatsApp Business Path,"week-9,story,backend,whatsapp,messaging",,E-09,S-09-04,S-09-03,3,"- Deliverable for Week 9 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 9
+Map official WhatsApp traffic to tenant and project context,"## Story
+Resolve inbound and outbound messages to the right organization, project, and contact.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Official WhatsApp Business Path**.
+",,Todo,P0,Story,9,Week 9 — Official WhatsApp Business Path,"week-9,story,backend,multi-tenant,whatsapp",,E-09,S-09-05,S-09-04,3,"- Deliverable for Week 9 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 9
+Build customer conversation UI,"## Story
+Create contacts, conversation timeline, message thread, and escalation UI.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Official WhatsApp Business Path**.
+",,Todo,P1,Story,9,Week 9 — Official WhatsApp Business Path,"week-9,story,frontend,whatsapp,ux",,E-09,S-09-06,S-09-05,2,"- Deliverable for Week 9 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 9
+Epic: Retrieval Quality and Memory UX,"## Goal
+Improve memory quality with hybrid retrieval, ranking, better summaries, and a stronger memory explorer experience.
+
+## Scope
+- - Implement hybrid retrieval ranking
+- Add source weighting and duplicate suppression
+- Expand supported memory source types
+- Build detailed source viewer UI
+- Add memory promotion suggestions
+- Create daily summary job
+
+## Exit criteria
+All P0 stories for Week 10 are completed and the weekly milestone outcome is demonstrably working.
+",,Todo,P0,Epic,10,Week 10 — Retrieval Quality and Memory UX,"week-10,epic,mvp",E-10,,,E-09,8,Weekly milestone 'Week 10 — Retrieval Quality and Memory UX' achieved.,Week 10
+Implement hybrid retrieval ranking,"## Story
+Combine keyword, vector, recency, and source priority into a unified ranking strategy.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Retrieval Quality and Memory UX**.
+",,Todo,P0,Story,10,Week 10 — Retrieval Quality and Memory UX,"week-10,story,backend,search,memory",,E-10,S-10-01,E-09,3,"- Deliverable for Week 10 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 10
+Add source weighting and duplicate suppression,"## Story
+Improve retrieval quality by weighting durable docs higher and removing duplicates.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Retrieval Quality and Memory UX**.
+",,Todo,P0,Story,10,Week 10 — Retrieval Quality and Memory UX,"week-10,story,backend,memory,quality",,E-10,S-10-02,S-10-01,3,"- Deliverable for Week 10 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 10
+Expand supported memory source types,"## Story
+Support docs, PRs, tickets, WhatsApp, incidents, and releases in retrieval and display.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Retrieval Quality and Memory UX**.
+",,Todo,P1,Story,10,Week 10 — Retrieval Quality and Memory UX,"week-10,story,backend,memory,taxonomy",,E-10,S-10-03,S-10-02,2,"- Deliverable for Week 10 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 10
+Build detailed source viewer UI,"## Story
+Allow users to inspect the exact chunk, summary, and source metadata behind a result.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Retrieval Quality and Memory UX**.
+",,Todo,P1,Story,10,Week 10 — Retrieval Quality and Memory UX,"week-10,story,frontend,memory,ux",,E-10,S-10-04,S-10-03,2,"- Deliverable for Week 10 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 10
+Add memory promotion suggestions,"## Story
+Surface proposed durable memory updates for review.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Retrieval Quality and Memory UX**.
+",,Todo,P1,Story,10,Week 10 — Retrieval Quality and Memory UX,"week-10,story,frontend,memory,approvals",,E-10,S-10-05,S-10-04,2,"- Deliverable for Week 10 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 10
+Create daily summary job,"## Story
+Run a background job that curates daily activity into summaries and long-term memory proposals.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Retrieval Quality and Memory UX**.
+",,Todo,P0,Story,10,Week 10 — Retrieval Quality and Memory UX,"week-10,story,backend,jobs,memory",,E-10,S-10-06,S-10-05,3,"- Deliverable for Week 10 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 10
+Epic: Billing and Product Polish,"## Goal
+Make the MVP feel like a SaaS product with usage tracking, limits, onboarding, settings, and polish.
+
+## Scope
+- - Create subscription and plan models
+- Implement usage tracking
+- Add quota enforcement hooks
+- Build onboarding wizard
+- Build settings and admin screens
+- Polish dashboard and error states
+
+## Exit criteria
+All P0 stories for Week 11 are completed and the weekly milestone outcome is demonstrably working.
+",,Todo,P0,Epic,11,Week 11 — Billing and Product Polish,"week-11,epic,mvp",E-11,,,E-10,8,Weekly milestone 'Week 11 — Billing and Product Polish' achieved.,Week 11
+Create subscription and plan models,"## Story
+Add tables and services for plans, subscriptions, and plan assignment.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Billing and Product Polish**.
+",,Todo,P1,Story,11,Week 11 — Billing and Product Polish,"week-11,story,backend,billing,database",,E-11,S-11-01,E-10,2,"- Deliverable for Week 11 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 11
+Implement usage tracking,"## Story
+Track usage for users, projects, WhatsApp conversations, memory size, and agent runs.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Billing and Product Polish**.
+",,Todo,P1,Story,11,Week 11 — Billing and Product Polish,"week-11,story,backend,billing,usage",,E-11,S-11-02,S-11-01,2,"- Deliverable for Week 11 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 11
+Add quota enforcement hooks,"## Story
+Enforce plan limits at the right service boundaries.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Billing and Product Polish**.
+",,Todo,P1,Story,11,Week 11 — Billing and Product Polish,"week-11,story,backend,billing,limits",,E-11,S-11-03,S-11-02,2,"- Deliverable for Week 11 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 11
+Build onboarding wizard,"## Story
+Create a guided first-run setup for organization, project, repos, and channels.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Billing and Product Polish**.
+",,Todo,P1,Story,11,Week 11 — Billing and Product Polish,"week-11,story,frontend,onboarding,ux",,E-11,S-11-04,S-11-03,2,"- Deliverable for Week 11 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 11
+Build settings and admin screens,"## Story
+Add organization settings, project settings, user management, and plan/usage screens.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Billing and Product Polish**.
+",,Todo,P1,Story,11,Week 11 — Billing and Product Polish,"week-11,story,frontend,settings,admin",,E-11,S-11-05,S-11-04,2,"- Deliverable for Week 11 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 11
+Polish dashboard and error states,"## Story
+Improve empty states, loading states, errors, and general UX consistency.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Billing and Product Polish**.
+",,Todo,P2,Story,11,Week 11 — Billing and Product Polish,"week-11,story,frontend,ux,polish",,E-11,S-11-06,S-11-05,1,"- Deliverable for Week 11 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 11
+Epic: Pilot Launch and Hardening,"## Goal
+Prepare the MVP for its first real users with testing, security review, documentation, and pilot onboarding.
+
+## Scope
+- - Run end-to-end test pass on critical flows
+- Review auth, permissions, and tenant isolation
+- Review audit logs, routing, and memory correctness
+- Document backup and deployment runbooks
+- Create pilot onboarding and demo materials
+- Onboard first pilot customer or internal team
+
+## Exit criteria
+All P0 stories for Week 12 are completed and the weekly milestone outcome is demonstrably working.
+",,Todo,P0,Epic,12,Week 12 — Pilot Launch and Hardening,"week-12,epic,mvp",E-12,,,E-11,8,Weekly milestone 'Week 12 — Pilot Launch and Hardening' achieved.,Week 12
+Run end-to-end test pass on critical flows,"## Story
+Test login, projects, memory, GitHub ingestion, WhatsApp, approvals, and support flow.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Pilot Launch and Hardening**.
+",,Todo,P0,Story,12,Week 12 — Pilot Launch and Hardening,"week-12,story,testing,e2e,release",,E-12,S-12-01,E-11,3,"- Deliverable for Week 12 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 12
+"Review auth, permissions, and tenant isolation","## Story
+Perform a focused security and multi-tenant correctness review.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Pilot Launch and Hardening**.
+",,Todo,P0,Story,12,Week 12 — Pilot Launch and Hardening,"week-12,story,security,rbac,multi-tenant",,E-12,S-12-02,S-12-01,3,"- Deliverable for Week 12 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 12
+"Review audit logs, routing, and memory correctness","## Story
+Confirm operational traceability and data correctness in the MVP.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Pilot Launch and Hardening**.
+",,Todo,P0,Story,12,Week 12 — Pilot Launch and Hardening,"week-12,story,audit,operations,memory",,E-12,S-12-03,S-12-02,3,"- Deliverable for Week 12 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 12
+Document backup and deployment runbooks,"## Story
+Create backup, restore, deploy, rollback, and incident runbooks.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Pilot Launch and Hardening**.
+",,Todo,P1,Story,12,Week 12 — Pilot Launch and Hardening,"week-12,story,docs,devops,runbook",,E-12,S-12-04,S-12-03,2,"- Deliverable for Week 12 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 12
+Create pilot onboarding and demo materials,"## Story
+Prepare a pilot onboarding guide, demo script, and release notes.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Pilot Launch and Hardening**.
+",,Todo,P1,Story,12,Week 12 — Pilot Launch and Hardening,"week-12,story,docs,sales,pilot",,E-12,S-12-05,S-12-04,2,"- Deliverable for Week 12 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 12
+Onboard first pilot customer or internal team,"## Story
+Run the first pilot and capture structured feedback for the next roadmap.
+
+## Checklist
+- [ ] Implement the required backend or frontend changes
+- [ ] Add or update tests where relevant
+- [ ] Update docs, config, or memory when behavior changes
+- [ ] Demo the completed outcome
+
+## Notes
+This item belongs to **Epic: Pilot Launch and Hardening**.
+",,Todo,P0,Story,12,Week 12 — Pilot Launch and Hardening,"week-12,story,pilot,feedback,launch",,E-12,S-12-06,S-12-05,3,"- Deliverable for Week 12 is working
+- Tested enough for the next dependent story
+- Changes are documented where needed",Week 12
